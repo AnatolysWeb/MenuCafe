@@ -2,28 +2,118 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú | El Búho</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Menú de Bar Café, descubre nuestros deliciosos cafés, tés, bebidas y comidas.">
+    <meta name="author" content="Bar Café">
+    <title>Menú | Bar Café</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>El Búho</h1>
+        <div class="header-container">
+            <h1>Bar Café</h1>
+            <p>Un espacio para disfrutar los mejores sabores</p>
+        </div>
     </header>
+
+    <!-- Barra de iconos interactiva -->
+    <div class="icon-bar">
+        <a href="#cafes"><img src="cafes-icon.png" alt="Cafés"></a>
+        <a href="#tes"><img src="tes-icon.png" alt="Tés"></a>
+        <a href="#bebidas"><img src="bebidas-icon.png" alt="Bebidas"></a>
+        <a href="#comidas"><img src="comidas-icon.png" alt="Comidas"></a>
+        <a href="#postres"><img src="postres-icon.png" alt="Postres"></a>
+        <a href="#ofertas"><img src="ofertas-icon.png" alt="Ofertas"></a>
+        <a href="#contacto"><img src="contacto-icon.png" alt="Contacto"></a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#cafes">Cafés</a></li>
+            <li><a href="#tes">Tés</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#comidas">Comidas</a></li>
+            <li><a href="#postres">Postres</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section class="menu">
-            <div class="menu-item">
-                <h2>Café Espresso</h2>
-                <p>Un espresso fuerte y aromático.</p>
-                <span>$150</span>
-            </div>
-            <div class="menu-item">
-                <h2>Cappuccino</h2>
-                <p>Espresso con espuma de leche.</p>
-                <span>$200</span>
-            </div>
+        <section id="cafes" class="menu-section">
+            <h2>☕ Cafés Especiales</h2>
+            <ul>
+                <li><strong>Espresso</strong> - $XX</li>
+                <li><strong>Americano</strong> - $XX</li>
+                <li><strong>Cappuccino</strong> - $XX</li>
+                <li><strong>Latte</strong> - $XX</li>
+            </ul>
+        </section>
+        
+        <section id="tes" class="menu-section">
+            <h2>🍵 Tés e Infusiones</h2>
+            <ul>
+                <li><strong>Té Negro</strong> - $XX</li>
+                <li><strong>Té Verde</strong> - $XX</li>
+                <li><strong>Infusión de Hierbas</strong> - $XX</li>
+            </ul>
+        </section>
+        
+        <section id="bebidas" class="menu-section">
+            <h2>🍹 Bebidas Frías & Cócteles</h2>
+            <ul>
+                <li><strong>Mojito</strong> - $XX</li>
+                <li><strong>Aperol Spritz</strong> - $XX</li>
+                <li><strong>Gin Tonic</strong> - $XX</li>
+            </ul>
+        </section>
+
+        <section id="comidas" class="menu-section">
+            <h2>🥪 Snacks & Comidas</h2>
+            <ul>
+                <li><strong>Tostado de Jamón y Queso</strong> - $XX</li>
+                <li><strong>Wrap Vegetariano</strong> - $XX</li>
+                <li><strong>Picada para Compartir</strong> - $XX</li>
+            </ul>
+        </section>
+
+        <!-- Nueva sección de postres -->
+        <section id="postres" class="menu-section">
+            <h2>🍰 Postres</h2>
+            <ul>
+                <li><strong>Tarta de Limón</strong> - $XX</li>
+                <li><strong>Brownie con Helado</strong> - $XX</li>
+                <li><strong>Crumble de Frutas</strong> - $XX</li>
+            </ul>
+        </section>
+
+        <!-- Nueva sección de ofertas -->
+        <section id="ofertas" class="menu-section">
+            <h2>🎉 Ofertas Especiales</h2>
+            <ul>
+                <li><strong>Combo Café + Pastel</strong> - $XX</li>
+                <li><strong>Happy Hour</strong> - $XX</li>
+                <li><strong>Descuento en la segunda bebida</strong> - $XX</li>
+            </ul>
+        </section>
+        
+        <!-- Sección de contacto -->
+        <section id="contacto" class="menu-section">
+            <h2>📞 Contacto</h2>
+            <p>Para más información, reservas o consultas, ¡contáctanos!</p>
+            <address>
+                <p>📍 Dirección: [Tu Dirección] | 📞 Teléfono: [Teléfono]</p>
+            </address>
         </section>
     </main>
-    <script src="script.js"></script>
+
+    <footer>
+        <p>Síguenos en redes sociales: 
+            <a href="[Instagram Link]" target="_blank">Instagram</a> | 
+            <a href="[Facebook Link]" target="_blank">Facebook</a>
+        </p>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
